@@ -1,0 +1,682 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 70px;
+
+}
+html{
+
+    overflow: auto;
+
+}
+html::-webkit-scrollbar{
+
+    display: none;
+
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+
+}
+.logo h1{
+
+    margin: 0;
+
+}
+nav ul{
+
+    list-style: none;
+    padding: 0;
+    
+}
+nav li{
+
+    display: inline;
+    margin: 0 15px;
+
+}
+nav ul li a{
+
+    color: #fff;
+    text-decoration: none;
+
+}
+nav ul li a.active{
+
+    font-weight: bold;
+    border-bottom: 2px solid #ff4500;
+
+}
+section{
+
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+
+}
+footer{
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+}
+.hero{
+
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    border-top: 2px solid #fff;
+
+}
+#row1{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: blue;
+    color: #000;
+    
+
+}
+h1, p, h2{
+
+    text-indent: 10px;
+
+}
+.contactUs{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.textField{
+
+    width: 600px;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 19px;
+    outline: none;
+
+
+}
+.textField::placeholder{
+
+    font-weight: 700;
+    font-size: 19px;
+
+}
+.homeButton4{
+
+    width: 612px;
+    height: 60px;
+    border: 1px solid #000;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+.form{
+
+    width: 600px;
+    height: 60px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
+.form::placeholder{
+
+    font-size: 19px;
+    color: #bbb;
+    font-weight: 700;
+
+}
+
+input[type="submit"]{
+    width: 615px;
+}
+
+form{
+
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+}
+form h2{
+
+    font-size: 26px;
+
+}
+#carLogos1, #carLogos2, #carLogos3, #carLogos4, #carLogos5, #carLogos6{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+.logoPic{
+
+    width: 115px;
+    height: 115px;
+
+}
+.searchBar{
+
+    width: 99%;
+    height: 60px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+
+}
+#formSearch{
+
+    display: flex;
+    justify-content: center;
+
+}
+.ServicesButton,#ServicesButton, #ServicesButton2, #ServicesButton3{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+
+.ServicesButton{
+    padding-bottom: 50px;
+}
+
+.about-container{
+
+    display: flex;
+    max-width: 1440px;
+    margin: 20px auto;
+    gap: 20px;
+
+}
+.sidebar{
+
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    background-color: #e0e0e0;
+
+}
+.sidebar img{
+
+    width: 90%;
+
+}
+.sidebar h3{
+
+    color: #333;
+
+}
+.sidebar a{
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff4500;
+
+}
+.sidebar img{
+
+    width: 100%;
+    margin: 10px 0;
+
+}
+.main-content{
+
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+
+}
+.main-content img{
+
+    width: 100%;
+
+}
+.aboutPic{
+
+    width: 100%;
+    background-color: #333;
+
+}
+footer{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+.cars{
+
+    display: none;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.carImage{
+
+    width: 355px;
+    height: 270px;
+    border: 1px solid #000;
+
+}
+#homeContent{
+
+    display: flex;
+    justify-content: center;
+
+}
+#homeside{
+
+    display: block;
+
+}
+#middleContent{
+
+    display: block;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+
+}
+.bmwLogo{
+
+    background-image: url(Images/bmw-logo.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.mercedesLogo{
+
+    background-image: url(Images/Mercedes-logo.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.ferrariLogo{
+
+    background-image: url(Images/ferrari-logo.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.miniLogo{
+
+    background-image: url(Images/mini-logo.png);
+    background-size: 120px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.lamborghiniLogo{
+
+    background-image: url(Images/lamborghini-logo.png);
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.landLogo{
+
+    background-image: url(Images/landLogo.png);
+    background-size: 150px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.vwLogo{
+
+    background-image: url(Images/VW-logo.png);
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.parentServices{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.formButton{
+
+    width: 22vw;
+    height: 120px;
+    border: 1px solid #000;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #333;
+    gap: 20px;
+    cursor: pointer;
+
+}
+.formButton:hover{
+
+    transform: scale(1.1);
+    transition: 0.2s linear;
+    box-shadow: 0px 0px 10px #333;
+    border: none;
+
+}
+.mainServices{
+
+    gap: 20px;
+
+}
+h2{
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+
+}
+.socialLinks{
+
+    display: grid;
+    justify-content: space-evenly;
+    gap: 50px;
+
+}
+.socialLinks>div{
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+}
+.socialLinks>a{
+
+    text-decoration: none;
+    color: #333;
+
+}
+.socialPics{
+
+    
+    width: 5vw;
+    height: 9.5vh;
+
+}
+#ferrariCars{
+
+    display: block;
+    justify-content: space-around;
+
+}
+.PageLogoPic{
+
+    display: flex;
+    justify-content: center;
+    padding-top: px;
+
+}
+.ferrariRow1, .ferrariRow2, .ferrariRow3{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.ferrariPageLogo{
+
+    height: 25vh;
+    width: 12.5vw;
+    align-items: center;
+
+}
+.ferrariPics{
+
+    height: 17vh;
+    width: 14vw;
+    border-radius: 20px;
+    padding: 10px 10px;
+
+}
+.carPrice{
+
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 4px;
+    text-align: left;
+}
+span{
+
+    display: flex;
+    justify-content: center;
+
+}
+span button:nth-child(1){
+
+    border-radius: 0 0 0px 20px;
+
+}
+span button:nth-child(2){
+
+    border-radius: 0 0 20px 0px;
+
+}
+.buyNow{
+
+    width: 7.5vw;
+    height: 6.5vh;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 15px;
+    border: none;
+    background-color: #ddd;
+
+}
+.buyNow:hover{
+
+    background-color: #2f5a87;
+    border: none;
+    color: white;
+    transition: .2s linear;
+    font-weight: 700;
+
+}
+.picSection{
+
+    border: none;
+    background-color: #333;
+    height: 33.6vh;
+    width: 15vw;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.picSection:hover{
+
+    transform: scale(1.1);
+    transition: .2s linear;
+
+}
+
+                           /* SCREEN RESPONSIVENESS */
+
+
+@media screen and (max-width:786px){
+
+    .about-container{
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .sidebar{
+
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .main-content{
+
+        width: 90%;
+
+    }
+
+}
+
+@media  screen and (max-width:480px) {
+    header{
+
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+
+    }
+    nav ul{
+
+        padding: 20px 0 0 0;
+
+    }
+    nav ul li{
+
+        display: block;
+        margin: 10px 0;
+
+    }
+    .about-container{
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .sidebar{
+
+        width: 90%;
+        margin-bottom: 20px;
+
+    }
+    .form{
+
+        width: 20%;
+        height: 60px;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 10px;
+    
+    }
+    .formButton{
+
+        width: 20vw;
+        height: 11vh;
+        border: 1px solid #000;
+        color: #fff;
+        font-size: 9px;
+        font-weight: 700;
+        background-color: #333;
+        gap: 10px;
+        background-size: 40px 40px;
+    
+    }
+}
+
+                           /* SCREEN RESPONSIVENESS */
+
+
+.feedbackForm{
+
+    padding: 10px;
+    display: block;
+    justify-content: space-between;
+    justify-content: center;
+    border: 1px solid red;
+    height: 50vh;
+    width: 98.5%;
+
+}
+.feedbackForm label{
+    text-align: left;
+    padding-top: 10px;
+}
+.feedback{
+
+    width: 250%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left: 5px;
+
+}
+.feedbackSubmit{
+
+    width: 255%;
+    height: 50px;
+
+}
+
+.products-table{
+    width: 97.4vw;
+    background-color: white;
+    border-collapse: collapse;
+    margin: 0;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    align-items: center;
+    place-items: center;
+}
+
+.products-table h2{
+    font-size: 2em;
+    text-transform: uppercase;
+
+}
+
+.products-table p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.table th{
+    padding: 20px 100px;
+    text-align: center;
+    background-color: #2f5a87;
+    color: white;
+}
+
+.table td{
+    /* padding: 50px 100px; */
+    text-align: center;
+}
